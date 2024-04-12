@@ -2,7 +2,6 @@ import clip
 import torch
 import numpy as np
 
-
 '''
 return the emotion from the facial image
 

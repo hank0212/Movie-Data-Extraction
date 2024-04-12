@@ -1,0 +1,15 @@
+clip @ git+https://github.com/openai/CLIP.git@a1d071733d7111c9c014f024669f959182114e33
+torch==2.2.1
+torchvision==0.17.1
+Pillow==10.2.0
+numpy==1.26.4
+matplotlib==3.8.3
+pandas==2.2.1
+opencv-python==4.9.0.80
+ffmpeg-python==0.2.0
+face-recognition==1.3.0
+face_recognition_models==0.3.0
+openai-whisper==20231117
+-e git+https://github.com/IDEA-Research/GroundingDINO.git@c023468fafeb0933d06aa8ba49d96089ce9a6af3#egg=groundingdino
+
+
