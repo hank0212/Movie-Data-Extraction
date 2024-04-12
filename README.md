@@ -27,8 +27,7 @@ MOIVE-DATA-EXTRACTION/
 ```
 
 # Notes
-- The face images folder has the detected face for user to manually categorize facial expression if the detection went wrong.
-- The index is associated with the transcript index.
+- The face images folder has the detected face for user to manually categorize facial expression if the detection went wrong, index is associated with the transcript index.
 - Generated data is stored in the video folder, along with the face images folder
 - Accuracy is around 70%, some adjustment is needed.
 
