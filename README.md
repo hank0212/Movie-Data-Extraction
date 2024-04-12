@@ -18,7 +18,6 @@ MOIVE-DATA-EXTRACTION/
 |   |   |--video1.mp4
 |   |-- Video2 Folder
 |   |   |--video2.mp4
-|--GroundingDINO
 |-- extract.py
 |-- speaker.py
 |-- emotions.py
