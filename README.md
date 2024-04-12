@@ -9,7 +9,9 @@ pip install -r requirements.txt
 python extract.py <path to video source>
 ```
 
+
 file structure:
+```
 MOIVE-DATA-EXTRACTION/
 |--Videos
 |   |-- Video1 Folder
@@ -22,7 +24,7 @@ MOIVE-DATA-EXTRACTION/
 |-- emotions.py
 |-- README.md
 |-- requirements.txt
-
+```
 
 # Notes
 - The face images folder has the detected face for user to manually categorize facial expression if the detection went wrong.
