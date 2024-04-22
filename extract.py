@@ -71,6 +71,8 @@ def extract(video_path, face_image_path, transcript, emotions_dict):
             sentence_cache.append(sentence)
 
         dialogue += sentence
+    
+    return dialogue 
 
 warnings.filterwarnings('ignore')
 os.environ["TOKENIZERS_PARALLELISM"] = "false"

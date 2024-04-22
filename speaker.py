@@ -28,12 +28,12 @@ def decide_speaker(speaker_id, frame_data, global_known_faces, global_face_frequ
         face_locations = face_recognition.face_locations(np_image)
         face_encodings = face_recognition.face_encodings(np_image, face_locations)
 
+        # skip the iteration if no faces 
         if not face_encodings:
             continue
         
-        top, right, bottom, left = face_locations[0]
-        
         # Crop the face from the original image and store as tensor
+        top, right, bottom, left = face_locations[0]
         face_image = image.crop((left, top, right, bottom))
         
         # image transform for DINO instance detection
